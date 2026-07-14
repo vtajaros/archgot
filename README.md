@@ -81,6 +81,15 @@ asoiaf-terminal-banners is completely open source and modular! You can easily ad
 
 _(Note: Re-generation requires `chafa` and `jq` to be installed on your system)._
 
+## Why Pre-rendered ANSI?
+
+Instead of rendering raw image files on-the-fly, **asoiaf-terminal-banners** uses pre-rendered ANSI block art for key architectural reasons:
+
+- **Instant Performance (<1ms):** Displays instantly via a simple `cat` execution at startup with zero CPU overhead or lag.
+- **Native Background Transparency:** Standard ANSI block sequences leave background cells untouched, letting your terminal's native background, colors, or glassmorphism shine through cleanly.
+- **Universal Compatibility:** Works reliably across virtually all terminal emulators, `tmux` sessions, and SSH connections without relying on fragmented graphics protocols (like Sixel or Kitty graphics).
+- **Zero Runtime Dependencies:** End-users only need basic `bash` to display banners—image tools like `chafa` are only needed when generating new banners.
+
 ## Uninstallation
 
 To remove asoiaf-terminal-banners, simply delete the source line from your `~/.bashrc` and remove the local banners directory:
@@ -88,3 +97,4 @@ To remove asoiaf-terminal-banners, simply delete the source line from your `~/.b
 ```bash
 rm -rf ~/.local/share/asoiaf-terminal-banners
 ```
+
