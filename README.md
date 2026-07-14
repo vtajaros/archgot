@@ -2,7 +2,10 @@
 
 Display a random A Song of Ice and Fire / Game of Thrones house coat-of-arms and house words whenever you open a new terminal (powered by `archgot`)!
 
-<img width="1915" height="1154" alt="image" src="https://github.com/user-attachments/assets/1cda72b2-e90c-4d97-be5d-12889d6e5495" />
+<img width="1920" height="1162" alt="image" src="https://github.com/user-attachments/assets/789c0597-cd50-466a-9442-a248a30b4f5a" />
+<img width="1920" height="1159" alt="image" src="https://github.com/user-attachments/assets/1b3332ae-4f9d-4bdd-8eb0-9a10008927d3" />
+<img width="1920" height="1161" alt="image" src="https://github.com/user-attachments/assets/8b3641c7-74b0-4ff0-9e56-f83c329611a0" />
+
 Like `pokescript`, this runs a lightweight, pre-rendered script in your `~/.bashrc` to show high-quality ANSI block art without any runtime processing or image dependencies.
 
 ## Installation
