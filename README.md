@@ -81,6 +81,14 @@ Allyrion, Appleton, Arryn, Ashford, Baelish, Ball, Bar Emmon, Baratheon, Beesbur
 
 </details>
 
+### 🎲 Weighted Lore Probability
+
+Not all houses appear with equal frequency! `archgot` uses a 3-tier lore-weighted selection algorithm so iconic houses appear regularly while lesser-known houses remain as fun, rare surprises:
+
+- **Great Houses (5x Weight):** The 9 Great Houses (Stark, Targaryen, Lannister, Tyrell, Baratheon, Martell, Greyjoy, Arryn, Tully) are **5x more likely** to appear.
+- **Important Houses (3x Weight):** 15 major vassal houses with prominent lore (e.g., Velaryon, Hightower, Dayne, Bolton, Tarth, Blackwood, Frey, Royce) are **3x more likely** to appear.
+- **Minor Houses (1x Weight):** The remaining 69 noble houses appear at default frequency for occasional discovery.
+
 ## Adding Your Own Houses
 
 asoiaf-terminal-banners is completely open source and modular! You can easily add new houses or edit the words of existing ones.
