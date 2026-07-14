@@ -1,20 +1,20 @@
-# ArchGot
+# asoiaf-terminal-banners
 
-Display a random Game of Thrones house coat-of-arms and house words whenever you open a new terminal!
+Display a random A Song of Ice and Fire / Game of Thrones house coat-of-arms and house words whenever you open a new terminal!
 
 <img width="1915" height="1154" alt="image" src="https://github.com/user-attachments/assets/1cda72b2-e90c-4d97-be5d-12889d6e5495" />
 Like `pokescript`, this runs a lightweight, pre-rendered script in your `~/.bashrc` to show high-quality ANSI block art without any runtime processing or image dependencies.
 
 ## Installation
 
-There are two ways to install ArchGot:
+There are two ways to install asoiaf-terminal-banners:
 
 ### 1. Arch Linux Native (Recommended for Arch users)
 
-If this repository is uploaded to the AUR (e.g. as `archgot-git`), you can install it using an AUR helper like `yay`:
+If this repository is uploaded to the AUR (e.g. as `asoiaf-terminal-banners-git`), you can install it using an AUR helper like `yay`:
 
 ```bash
-yay -S archgot-git
+yay -S asoiaf-terminal-banners-git
 ```
 
 Or build it manually using `makepkg` directly from this repository:
@@ -26,7 +26,7 @@ makepkg -si
 Then, add this to your `~/.bashrc`:
 
 ```bash
-[ -f /usr/share/archgot/got-banner.sh ] && source /usr/share/archgot/got-banner.sh
+[ -f /usr/share/asoiaf-terminal-banners/got-banner.sh ] && source /usr/share/asoiaf-terminal-banners/got-banner.sh
 ```
 
 ### 2. Local Installation (For any distro or quick setup)
@@ -37,13 +37,13 @@ You can install it locally to your user profile by running:
 ./install.sh
 ```
 
-This script will automatically generate the banners, copy them to `~/.local/share/got-banners/`, and append the correct line to your `~/.bashrc`.
+This script will automatically generate the banners, copy them to `~/.local/share/asoiaf-terminal-banners/`, and append the correct line to your `~/.bashrc`.
 
 Open a new terminal tab to see it in action!
 
 ## Included Houses
 
-ArchGot includes 93 canon and extended houses from the world of Ice and Fire.
+asoiaf-terminal-banners includes 93 canon and extended houses from the world of Ice and Fire.
 *(Note: Houses marked with an asterisk `*` do not have canon house words, so placeholder words closely relating to their house's lore have been given to them).*
 
 <details>
@@ -55,7 +55,7 @@ Allyrion, Appleton, Arryn, Ashford, Baelish, Ball, Bar Emmon, Baratheon, Beesbur
 
 ## Adding Your Own Houses
 
-ArchGot is completely open source and modular! You can easily add new houses or edit the words of existing ones.
+asoiaf-terminal-banners is completely open source and modular! You can easily add new houses or edit the words of existing ones.
 
 1. **Add your image**: Place your house's `.webp` or `.png` coat-of-arms image inside the `banners/` directory.
    - For example: `banners/MyHouse.webp`
@@ -83,8 +83,8 @@ _(Note: Re-generation requires `chafa` and `jq` to be installed on your system).
 
 ## Uninstallation
 
-To remove ArchGot, simply delete the source line from your `~/.bashrc` and remove the local banners directory:
+To remove asoiaf-terminal-banners, simply delete the source line from your `~/.bashrc` and remove the local banners directory:
 
 ```bash
-rm -rf ~/.local/share/got-banners
+rm -rf ~/.local/share/asoiaf-terminal-banners
 ```

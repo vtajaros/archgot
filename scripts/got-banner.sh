@@ -10,10 +10,10 @@ case $- in
 esac
 
 # Check for local install first, then global install
-if [[ -d "$HOME/.local/share/got-banners" ]]; then
-  BANNER_DIR="$HOME/.local/share/got-banners"
-elif [[ -d "/usr/share/archgot/banners" ]]; then
-  BANNER_DIR="/usr/share/archgot/banners"
+if [[ -d "$HOME/.local/share/asoiaf-terminal-banners" ]]; then
+  BANNER_DIR="$HOME/.local/share/asoiaf-terminal-banners"
+elif [[ -d "/usr/share/asoiaf-terminal-banners/banners" ]]; then
+  BANNER_DIR="/usr/share/asoiaf-terminal-banners/banners"
 else
   return 2>/dev/null || exit 0
 fi

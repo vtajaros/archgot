@@ -1,13 +1,13 @@
 #!/bin/bash
 # install.sh
-# Installs got-banners to ~/.local/share/got-banners and adds it to ~/.bashrc
+# Installs banners to ~/.local/share/asoiaf-terminal-banners and adds it to ~/.bashrc
 
 set -e
 
-BANNER_DIR="$HOME/.local/share/got-banners"
+BANNER_DIR="$HOME/.local/share/asoiaf-terminal-banners"
 BASHRC="$HOME/.bashrc"
 
-echo "Installing Game of Thrones Terminal Banners..."
+echo "Installing ASOIAF Terminal Banners..."
 
 # 1. Create target directory
 mkdir -p "$BANNER_DIR"
@@ -26,7 +26,7 @@ cp scripts/got-banner.sh "$BANNER_DIR/"
 chmod +x "$BANNER_DIR/got-banner.sh"
 
 # 4. Add to .bashrc if not already there
-MARKER="# Game of Thrones Terminal Banner"
+MARKER="# ASOIAF Terminal Banner"
 if ! grep -q "$MARKER" "$BASHRC"; then
     echo "Adding dispatcher to $BASHRC..."
     echo "" >> "$BASHRC"
