@@ -35,6 +35,7 @@ MARKER="# ArchGot - ASOIAF Terminal Banners"
 sed -i '/# Game of Thrones Terminal Banner/d' "$BASHRC" 2>/dev/null || true
 sed -i '/# ASOIAF Terminal Banner/d' "$BASHRC" 2>/dev/null || true
 sed -i '/got-banner.sh/d' "$BASHRC" 2>/dev/null || true
+sed -i '|/usr/share/asoiaf-terminal-banners/archgot|d' "$BASHRC" 2>/dev/null || true
 
 if ! grep -q "$MARKER" "$BASHRC"; then
     echo "Adding dispatcher to $BASHRC..."
