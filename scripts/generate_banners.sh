@@ -109,8 +109,8 @@ while read -r row; do
     if [[ -n "$src_file" && -f "$src_file" ]]; then
         out_file="out/${slug}.txt"
         
-        # Run chafa without --fg-only to keep sigil quality
-        chafa --format symbols --size 25x13 "$src_file" > "$out_file"
+        # Run chafa with truecolor and block symbols for high-quality ANSI banners
+        chafa --format symbols --colors full --symbols block+border+space --size 25x13 "$src_file" > "$out_file"
         
         # Calculate centering padding relative to banner width (25 columns)
         target_width=25
