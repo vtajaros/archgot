@@ -74,13 +74,13 @@ When installed, `archgot` automatically runs upon opening any interactive shell 
 
 ## Included Houses
 
-asoiaf-terminal-banners includes 111 canon and extended houses from the world of Ice and Fire.
+asoiaf-terminal-banners includes 124 canon and extended houses from the world of Ice and Fire.
 *(Note: Houses marked with an asterisk `*` do not have canon house words, so placeholder words closely relating to their house's lore have been given to them).*
 
 <details>
-<summary>View all 111 houses</summary>
+<summary>View all 124 houses</summary>
 
-Allyrion, Appleton, Arryn, Ashford, Baelish, Ball, Bar Emmon, Baratheon, Beesbury, Blackmont, Blacktyde, Blackwood, Bolton, Bracken, Brax, Brune of Brownhollow, Butterwell, Cargyll, Cassel, Celtigar, Cerwyn, Chelsted, Clegane, Connington, Corbray, Crakehall, Crane, Darklyn, Darry, Dayne, Dondarrion, Drumm, Dustin, Estermont, Farman, Farring, Farwynd, Fell, Florent, Frey, Gardener, Gargalen, Glover, Goodbrother, Grafton, Grandison, Greyjoy, Harlaw, Hayford, Hightower, Hornwood, Jordayne, Karstark, Lannister, Locke, Lynderly, Mallister, Manderly, Manwoody, Marbrand, Martell, Massey, Merryweather, Mooton, Mormont, Payne, Peake, Penrose, Piper, Plumm, Redfort, Redwyne, Reed, Reyne, Rosby, Rowan, Roxton, Royce, Ryswell, Seaworth, Selmy, Stark, Staunton, Stokeworth, Stonehouse, Strong, Swann, Swyft, Tallhart, Targaryen, Tarly, Tarth, Templeton, Thorne, Trant, Tully, Tyrell, Uller, Umber, Vance of Wayfarer's Rest, Velaryon, Volmark, Vyrwel, Waynwood, Webber, Westerling, Whent, Whitehill, Wyl, Wylde, Yronwood.
+Allyrion, Appleton, Arryn, Ashford, Baelish, Ball, Bar Emmon, Baratheon, Beesbury, Blackmont, Blacktyde, Blackwood, Bolton, Bracken, Brax, Brune of Brownhollow, Buckwell, Bulwer, Butterwell, Cargyll, Cassel, Celtigar, Cerwyn, Chelsted, Clegane, Codd, Connington, Corbray, Crakehall, Crane, Darklyn, Darry, Dayne, Dondarrion, Drumm, Dustin, Estermont, Farman, Farring, Farwynd, Fell, Flint of Widow's Watch, Florent, Fossoway of Cider Hall, Fossoway of New Barrel, Fowler, Frey, Gardener, Gargalen, Glover, Goodbrother, Graceford, Grafton, Grandison, Greyjoy, Harlaw, Hayford, Hightower, Hornwood, Jordayne, Karstark, Lannister, Locke, Lonmouth, Lynderly, Mallister, Manderly, Manwoody, Marbrand, Martell, Massey, Merryweather, Mooton, Mormont, Oakheart, Payne, Peake, Penrose, Piper, Plumm, Redfort, Redwyne, Reed, Reyne, Rosby, Rowan, Roxton, Royce, Ryswell, Seaworth, Selmy, Smallwood, Stark, Staunton, Stokeworth, Stonehouse, Strong, Swann, Swyft, Tallhart, Targaryen, Tarly, Tarth, Templeton, Thorne, Trant, Tully, Tyrell, Uller, Umber, Vance of Wayfarer's Rest, Velaryon, Volmark, Vyrwel, Waxley, Waynwood, Webber, Wendwater, Westerling, Whent, Whitehill, Wyl, Wylde, Yronwood.
 
 </details>
 
@@ -89,8 +89,8 @@ Allyrion, Appleton, Arryn, Ashford, Baelish, Ball, Bar Emmon, Baratheon, Beesbur
 Not all houses appear with equal frequency! `archgot` uses a 3-tier lore-weighted selection algorithm so iconic houses appear regularly while lesser-known houses remain as fun, rare surprises:
 
 - **Great Houses (5x Weight):** The 9 Great Houses (Stark, Targaryen, Lannister, Tyrell, Baratheon, Martell, Greyjoy, Arryn, Tully) are **5x more likely** to appear.
-- **Important Houses (3x Weight):** 16 major vassal houses with prominent lore (e.g., Velaryon, Hightower, Dayne, Bolton, Tarth, Blackwood, Frey, Royce, Reed) are **3x more likely** to appear.
-- **Minor Houses (1x Weight):** The remaining 86 noble houses appear at default frequency for occasional discovery.
+- **Important Houses (3x Weight):** 20 major vassal houses with prominent lore (e.g., Velaryon, Hightower, Dayne, Bolton, Tarth, Blackwood, Frey, Royce, Reed) are **3x more likely** to appear.
+- **Minor Houses (1x Weight):** The remaining 95 noble houses appear at default frequency for occasional discovery.
 
 ## Adding Your Own Houses
 
