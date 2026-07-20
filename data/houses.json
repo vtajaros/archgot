@@ -68,7 +68,7 @@
   {"house": "Merryweather", "region": "Reach", "words": "Behold Our Bounty", "source": "canon", "tier": "minor"},
   {"house": "Oakheart", "region": "Reach", "words": "Our Roots Go Deep", "source": "canon", "tier": "minor"},
   {"house": "Peake", "region": "Reach", "words": "Reaching Higher", "source": "invented", "tier": "minor"},
-  {"house": "Penrose", "region": "Reach", "words": "Set Down Our Deeds", "source": "canon", "tier": "minor"},
+  {"house": "Penrose", "region": "Stormlands", "words": "Set Down Our Deeds", "source": "canon", "tier": "minor"},
   {"house": "Redwyne", "region": "Reach", "words": "Our Vintage Never Fades", "source": "invented", "tier": "important"},
   {"house": "Rowan", "region": "Reach", "words": "Deep Roots Strong Boughs", "source": "invented", "tier": "minor"},
   {"house": "Roxton", "region": "Reach", "words": "Orphans of the Steel", "source": "invented", "tier": "minor"},

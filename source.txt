@@ -68,7 +68,7 @@ Hightower,Reach,We Light the Way,canon,important
 Merryweather,Reach,Behold Our Bounty,canon,minor
 Oakheart,Reach,Our Roots Go Deep,canon,minor
 Peake,Reach,Reaching Higher,invented,minor
-Penrose,Reach,Set Down Our Deeds,canon,minor
+Penrose,Stormlands,Set Down Our Deeds,canon,minor
 Redwyne,Reach,Our Vintage Never Fades,invented,important
 Rowan,Reach,Deep Roots Strong Boughs,invented,minor
 Roxton,Reach,Orphans of the Steel,invented,minor

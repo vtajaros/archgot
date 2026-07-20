@@ -102,9 +102,9 @@ archgot includes 124 canon and extended houses from the world of Ice and Fire.
 - **Dorne (11):** Allyrion, Blackmont\*, Dayne\*, Fowler, Gargalen\*, Jordayne, Manwoody\*, Martell, Uller\*, Wyl\*, Yronwood.
 - **Iron Islands (9):** Blacktyde\*, Codd, Drumm\*, Farwynd\*, Goodbrother\*, Greyjoy, Harlaw\*, Stonehouse\*, Volmark\*.
 - **The North (17):** Bolton, Cassel\*, Cerwyn, Dustin, Flint of Widow's Watch, Glover\*, Hornwood, Karstark, Locke\*, Manderly\*, Mormont, Reed\*, Ryswell\*, Stark, Tallhart, Umber, Whitehill\*.
-- **Reach (26):** Appleton\*, Ashford, Ball\*, Beesbury, Bulwer, Crane\*, Florent\*, Fossoway of Cider Hall, Fossoway of New Barrel\*, Gardener\*, Graceford, Grandison, Hightower, Merryweather, Oakheart, Peake\*, Penrose, Redwyne\*, Rowan\*, Roxton\*, Selmy\*, Smallwood, Tarly, Tyrell, Vyrwel\*, Webber\*.
+- **Reach (25):** Appleton\*, Ashford, Ball\*, Beesbury, Bulwer, Crane\*, Florent\*, Fossoway of Cider Hall, Fossoway of New Barrel\*, Gardener\*, Graceford, Grandison, Hightower, Merryweather, Oakheart, Peake\*, Redwyne\*, Rowan\*, Roxton\*, Selmy\*, Smallwood, Tarly, Tyrell, Vyrwel\*, Webber\*.
 - **Riverlands (12):** Blackwood\*, Bracken\*, Butterwell\*, Darry\*, Frey\*, Mallister, Mooton, Piper, Strong\*, Tully, Vance of Wayfarer's Rest\*, Whent\*.
-- **Stormlands (12):** Baratheon, Connington\*, Dondarrion\*, Estermont\*, Farring\*, Fell\*, Lonmouth, Seaworth\*, Swann\*, Tarth\*, Trant, Wylde\*.
+- **Stormlands (13):** Baratheon, Connington\*, Dondarrion\*, Estermont\*, Farring\*, Fell\*, Lonmouth, Penrose, Seaworth\*, Swann\*, Tarth\*, Trant, Wylde\*.
 - **The Vale (10):** Arryn, Baelish\*, Corbray\*, Grafton\*, Lynderly\*, Redfort, Royce, Templeton\*, Waxley, Waynwood\*.
 - **Westerlands (11):** Brax\*, Clegane\*, Crakehall, Farman, Lannister, Marbrand, Payne\*, Plumm, Reyne\*, Swyft, Westerling.
 
