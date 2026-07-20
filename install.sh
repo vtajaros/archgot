@@ -1,10 +1,10 @@
 #!/bin/bash
 # install.sh
-# Installs banners to ~/.local/share/asoiaf-terminal-banners and adds it to ~/.bashrc
+# Installs banners to ~/.local/share/archgot and adds it to ~/.bashrc
 
 set -e
 
-BANNER_DIR="$HOME/.local/share/asoiaf-terminal-banners"
+BANNER_DIR="$HOME/.local/share/archgot"
 BASHRC="$HOME/.bashrc"
 
 echo "Installing ASOIAF Terminal Banners..."
@@ -35,7 +35,7 @@ MARKER="# ArchGot - ASOIAF Terminal Banners"
 sed -i '/# Game of Thrones Terminal Banner/d' "$BASHRC" 2>/dev/null || true
 sed -i '/# ASOIAF Terminal Banner/d' "$BASHRC" 2>/dev/null || true
 sed -i '/got-banner.sh/d' "$BASHRC" 2>/dev/null || true
-sed -i '|/usr/share/asoiaf-terminal-banners/archgot|d' "$BASHRC" 2>/dev/null || true
+sed -i '|/usr/share/archgot/archgot|d' "$BASHRC" 2>/dev/null || true
 
 if ! grep -q "$MARKER" "$BASHRC"; then
     echo "Adding dispatcher to $BASHRC..."

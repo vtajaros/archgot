@@ -1,16 +1,16 @@
 # Maintainer: vtajaros
-pkgname=asoiaf-terminal-banners-git
+pkgname=archgot-git
 pkgver=r1.1a2b3c4
 pkgrel=1
 pkgdesc="A Song of Ice and Fire / Game of Thrones Terminal Banners - Random ANSI banners for your terminal"
 arch=('any')
-url="https://github.com/vtajaros/asoiaf-terminal-banners"
+url="https://github.com/vtajaros/archgot-asoiaf-terminal-banners"
 license=('MIT')
 depends=('bash')
 makedepends=('git' 'chafa' 'jq')
-provides=("asoiaf-terminal-banners")
-conflicts=("asoiaf-terminal-banners")
-source=("git+https://github.com/vtajaros/asoiaf-terminal-banners.git")
+provides=("archgot")
+conflicts=("archgot")
+source=("git+https://github.com/vtajaros/archgot-asoiaf-terminal-banners.git")
 sha256sums=('SKIP')
 
 pkgver() {
@@ -27,12 +27,12 @@ package() {
   cd "$srcdir/${pkgname%-git}"
   
   # Install the pre-rendered text banners
-  install -dm755 "$pkgdir/usr/share/asoiaf-terminal-banners/banners"
-  install -m644 out/*.txt "$pkgdir/usr/share/asoiaf-terminal-banners/banners/"
+  install -dm755 "$pkgdir/usr/share/archgot/banners"
+  install -m644 out/*.txt "$pkgdir/usr/share/archgot/banners/"
   
   # Install dispatcher script to share directory
-  install -dm755 "$pkgdir/usr/share/asoiaf-terminal-banners"
-  install -m755 scripts/archgot "$pkgdir/usr/share/asoiaf-terminal-banners/archgot"
+  install -dm755 "$pkgdir/usr/share/archgot"
+  install -m755 scripts/archgot "$pkgdir/usr/share/archgot/archgot"
   
   # Install executable command to /usr/bin/archgot
   install -dm755 "$pkgdir/usr/bin"
