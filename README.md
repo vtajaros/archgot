@@ -17,10 +17,12 @@ There are two ways to install archgot:
 
 ### 1. Arch Linux Native (Recommended for Arch users)
 
-Available on the Arch User Repository as [`archgot-git`](https://aur.archlinux.org/packages/archgot-git). You can install it using an AUR helper like `yay`:
+Available on the Arch User Repository as [`archgot-git`](https://aur.archlinux.org/packages/archgot-git). You can install it using an AUR helper like `yay` or `paru`:
 
 ```bash
 yay -S archgot-git
+# or
+paru -S archgot-git
 ```
 
 Or build it manually using `makepkg` directly from the repository:
